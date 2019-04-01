@@ -147,35 +147,6 @@ Cards
     font-size: 15px;
     color: hsl(208, 11%, 55%);
 }
-/* Get Started Box */
-.get-started-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 350px;
-    height: 200px;
-    margin: 80px;
-    padding: 20px 5px 20px 5px;
-    border: 1px solid transparent;
-    border-radius: 20px;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.1);
-    background-color: #fff;
-}
-.get-started-box h3 {
-    font-size: 16px;
-    font-weight: 500px;
-}
-.get-started-box button {
-    margin: 20px;
-    background-color: hsl(322, 100%, 66%);
-    color: #fff;
-    border: 1px solid hsl(322, 100%, 66%);
-    border-radius: 30px;
-    box-shadow: 0px 2px 14px #A9A9A9;
-    padding: 13px 20px;
-    font-size: 12px;
-}
 /* Large Screens */
 @media only screen and (min-width:769px)  {
     .card {
@@ -191,16 +162,47 @@ Cards
         padding: 20px 70px;
         text-align: left;
     }
-    /* Get Started Box */
-    .get-started-box {
-        width: 380px;
-        height: 100px;
-        margin: 30px;
-        position: absolute;
-        top: 1800px;
-    }   
 }
-
+/* ==================
+Get Started Box 
+================== */
+.get-started-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -80px;
+    padding: 20px 5px 20px 5px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.1);
+    background-color: #fff;
+    position: relative;
+}
+.get-started-box h3 {
+    font-size: 16px;
+    font-weight: 500px;
+}
+.get-started-box button {
+    margin: 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 30px;
+    box-shadow: 0px 2px 14px #A9A9A9;
+    padding: 13px 20px;
+    font-size: 12px;
+}
+/* Large Screens  */
+@media only screen and (min-width:769px) {
+    .get-started-box {
+        width: 400px;
+    } 
+}
 /* ==================
 Footer
 ================== */
@@ -210,7 +212,7 @@ footer {
     background-color: hsl(192, 100%, 9%);
     color: #fff;
     padding: 150px 0 50px 0;
-    margin: 150px 0 0 0;
+    margin: 10px 0 0 0;
 }
 footer img.logo {
     width: 200px;
@@ -262,7 +264,7 @@ footer .copyright {
     footer {
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 180px 0 0 0;
+        margin: 10px 0 0 0;
     }
     footer > div {
         padding:  10px 150px 10px 150px;
