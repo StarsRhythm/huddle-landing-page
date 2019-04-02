@@ -204,6 +204,7 @@ Get Started Box
 @media only screen and (min-width:769px) {
     .get-started-box {
         width: 400px;
+        margin-bottom: -80px;
     } 
 }
 /* ==================
